@@ -12,7 +12,8 @@ void world::setFrog(int x, int y) {
 }
 
 void world::setSpot(int x, int y) {
-	if (num_spots + 1 <= MAX_SPOTS) {
+	if (num_spots < MAX_SPOTS)
+	{
 		spots[num_spots++].set(x, y);
 	}
 }
@@ -34,6 +35,7 @@ int world::findSpot(int x, int y) const {
 	else {
 		return(-1);
 	}
+	index = 0; // delete this later
 } // end of findSpot()
 
 
