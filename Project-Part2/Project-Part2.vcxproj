@@ -115,6 +115,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="cat.h" />
+    <ClInclude Include="creature.h" />
+    <ClInclude Include="dirt.h" />
+    <ClInclude Include="frog.h" />
+    <ClInclude Include="point.h" />
+    <ClInclude Include="robot.h" />
+    <ClInclude Include="world.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cat.cpp" />
+    <ClCompile Include="creature.cpp" />
+    <ClCompile Include="dirt.cpp" />
+    <ClCompile Include="frog.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="point.cpp" />
+    <ClCompile Include="robot.cpp" />
+    <ClCompile Include="testcat.cpp" />
+    <ClCompile Include="testdirt.cpp" />
+    <ClCompile Include="testfrog.cpp" />
+    <ClCompile Include="testpoint.cpp" />
+    <ClCompile Include="testrobot.cpp" />
+    <ClCompile Include="testworld.cpp" />
+    <ClCompile Include="world.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
